@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Liora Tea</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#f8f8f3;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(to right,#8abf88,#dcefd9);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+header h1{
+    font-size:50px;
+}
+
+header p{
+    font-size:22px;
+    margin-top:15px;
+}
+
+.container{
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+}
+
+.product{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    gap:40px;
+    padding:70px 0;
+}
+
+.product img{
+    width:320px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+.info{
+    max-width:450px;
+}
+
+.price{
+    color:#2d7d32;
+    font-size:40px;
+    margin:20px 0;
+    font-weight:bold;
+}
+
+button{
+    background:#2d7d32;
+    color:white;
+    border:none;
+    padding:18px 35px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+button:hover{
+    background:#256628;
+}
+
+.notice{
+    margin-top:15px;
+    color:#555;
+    font-size:15px;
+}
+
+form{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+    margin:70px auto;
+}
+
+input,textarea{
+    width:100%;
+    padding:15px;
+    margin:10px 0;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    color:#777;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>LIORA TEA</h1>
+<p>Natürlich genießen. Jeden Tag.</p>
+</header>
+
+<div class="container">
+
+<section class="product">
+
+<img src="tee.jpg" alt="Liora Tea">
+
+<div class="info">
+
+<h2>Beauty Kräutertee</h2>
+
+<p>
+Mit ausgewählten Kräutern.
+100 % natürliche Zutaten.
+Vegan.
+Für deine tägliche Tee-Routine.
+</p>
+
+<div class="price">2,99 €</div>
+
+<button>Jetzt bestellen</button>
+
+<p class="notice">
+<strong>Zahlung nach Erhalt der Ware.</strong><br>
+Du erhältst nach deiner Bestellung eine Bestätigung.
+</p>
+
+</div>
+
+</section>
+
+<form>
+
+<h2>Bestellung / Kontakt</h2>
+
+<input type="text" placeholder="Name" required>
+
+<input type="email" placeholder="E-Mail" required>
+
+<input type="text" placeholder="Adresse" required>
+
+<textarea rows="6" placeholder="Nachricht oder Bestellwunsch"></textarea>
+
+<button type="submit">Bestellung absenden</button>
+
+</form>
+
+</div>
+
+<footer>
+
+© 2026 Liora Tea
+
+</footer>
+
+</body>
+</html>
