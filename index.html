@@ -1,175 +1,296 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Liora Tea</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIORA TEA | Natürlich genießen</title>
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial,Helvetica,sans-serif;
-}
+    <link rel="stylesheet" href="style.css">
 
-body{
-    background:#f8f8f3;
-    color:#333;
-}
-
-header{
-    background:linear-gradient(to right,#8abf88,#dcefd9);
-    color:white;
-    text-align:center;
-    padding:80px 20px;
-}
-
-header h1{
-    font-size:50px;
-}
-
-header p{
-    font-size:22px;
-    margin-top:15px;
-}
-
-.container{
-    width:90%;
-    max-width:1000px;
-    margin:auto;
-}
-
-.product{
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-    justify-content:center;
-    gap:40px;
-    padding:70px 0;
-}
-
-.product img{
-    width:320px;
-    border-radius:15px;
-    box-shadow:0 10px 25px rgba(0,0,0,.15);
-}
-
-.info{
-    max-width:450px;
-}
-
-.price{
-    color:#2d7d32;
-    font-size:40px;
-    margin:20px 0;
-    font-weight:bold;
-}
-
-button{
-    background:#2d7d32;
-    color:white;
-    border:none;
-    padding:18px 35px;
-    border-radius:10px;
-    cursor:pointer;
-    font-size:18px;
-}
-
-button:hover{
-    background:#256628;
-}
-
-.notice{
-    margin-top:15px;
-    color:#555;
-    font-size:15px;
-}
-
-form{
-    background:white;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 5px 20px rgba(0,0,0,.08);
-    margin:70px auto;
-}
-
-input,textarea{
-    width:100%;
-    padding:15px;
-    margin:10px 0;
-    border:1px solid #ccc;
-    border-radius:8px;
-}
-
-footer{
-    text-align:center;
-    padding:40px;
-    color:#777;
-}
-</style>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <header>
-<h1>LIORA TEA</h1>
-<p>Natürlich genießen. Jeden Tag.</p>
+
+<nav>
+
+<div class="logo">
+🌸 LIORA TEA
+</div>
+
+<ul>
+
+<li><a href="#home">Start</a></li>
+<li><a href="#produkt">Produkt</a></li>
+<li><a href="#bewertungen">Bewertungen</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#kontakt">Bestellen</a></li>
+
+</ul>
+
+</nav>
+
 </header>
 
-<div class="container">
+<section id="home" class="hero">
 
-<section class="product">
+<div class="hero-text">
 
-<img src="tee.jpg" alt="Liora Tea">
-
-<div class="info">
-
-<h2>Beauty Kräutertee</h2>
+<h1>Natürlich genießen.<br>Jeden Tag.</h1>
 
 <p>
-Mit ausgewählten Kräutern.
-100 % natürliche Zutaten.
-Vegan.
-Für deine tägliche Tee-Routine.
+
+Premium Kräutertee für deine tägliche Tee-Routine.
+
 </p>
 
-<div class="price">2,99 €</div>
+<a href="#kontakt" class="btn">
 
-<button>Jetzt bestellen</button>
+Jetzt bestellen
 
-<p class="notice">
-<strong>Zahlung nach Erhalt der Ware.</strong><br>
-Du erhältst nach deiner Bestellung eine Bestätigung.
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="images/tee.jpg" alt="Liora Tea">
+
+</div>
+
+</section>
+
+<section id="produkt" class="product">
+
+<h2>Unser Kräutertee</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>100 % natürliche Zutaten</h3>
+
+<p>
+
+Mit ausgewählten Kräutern.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Vegan</h3>
+
+<p>
+
+Ohne tierische Inhaltsstoffe.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>Ohne künstliche Zusätze*</h3>
+
+<p>
+
+*Nur verwenden, wenn dies für dein Produkt zutrifft.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="price-box">
+
+<h2>Nur 2,99 €</h2>
+
+<p>
+
+Zahlung nach Erhalt der Ware.
+
+</p>
+
+<a href="#kontakt" class="btn">
+
+Jetzt bestellen
+
+</a>
+
+</div>
+
+</section>
+
+<section id="bewertungen">
+
+<h2>Das sagen unsere Kunden</h2>
+
+<div class="reviews">
+
+<div class="review">
+
+⭐⭐⭐⭐⭐
+
+<p>
+
+"Sehr leckerer Tee!"
+
+</p>
+
+</div>
+
+<div class="review">
+
+⭐⭐⭐⭐⭐
+
+<p>
+
+"Schöne Verpackung und toller Geschmack."
+
+</p>
+
+</div>
+
+<div class="review">
+
+⭐⭐⭐⭐⭐
+
+<p>
+
+"Meine neue Abendroutine."
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="faq">
+
+<h2>FAQ</h2>
+
+<div class="faq">
+
+<h3>Wie bezahle ich?</h3>
+
+<p>
+
+Die Zahlung erfolgt nach Erhalt der Ware.
+
+</p>
+
+<h3>Wie lange dauert der Versand?</h3>
+
+<p>
+
+In der Regel 2–5 Werktage.
+
+</p>
+
+<h3>Wie bereite ich den Tee zu?</h3>
+
+<p>
+
+Mit heißem Wasser übergießen und 5–8 Minuten ziehen lassen.
+
 </p>
 
 </div>
 
 </section>
 
-<form>
+<section id="kontakt">
 
-<h2>Bestellung / Kontakt</h2>
+<h2>Bestellung</h2>
 
-<input type="text" placeholder="Name" required>
+<form
+action="https://formsubmit.co/melika.al@gmx.de"
+method="POST">
 
-<input type="email" placeholder="E-Mail" required>
+<input type="hidden" name="_captcha" value="false">
 
-<input type="text" placeholder="Adresse" required>
+<input type="hidden" name="_subject" value="Neue Bestellung Liora Tea">
 
-<textarea rows="6" placeholder="Nachricht oder Bestellwunsch"></textarea>
+<input type="text"
+name="Vorname"
+placeholder="Vorname"
+required>
 
-<button type="submit">Bestellung absenden</button>
+<input type="text"
+name="Nachname"
+placeholder="Nachname"
+required>
+
+<input type="email"
+name="E-Mail"
+placeholder="E-Mail"
+required>
+
+<input type="text"
+name="Adresse"
+placeholder="Straße & Hausnummer"
+required>
+
+<input type="text"
+name="PLZ"
+placeholder="PLZ & Ort"
+required>
+
+<select name="Menge">
+
+<option>1 Packung</option>
+
+<option>2 Packungen</option>
+
+<option>3 Packungen</option>
+
+<option>4 Packungen</option>
+
+<option>5 Packungen</option>
+
+</select>
+
+<textarea
+name="Nachricht"
+placeholder="Nachricht"></textarea>
+
+<button type="submit">
+
+Bestellung absenden
+
+</button>
+
+<p>
+
+💗 Preis pro Packung: <strong>2,99 €</strong><br>
+
+Die Zahlung erfolgt nach Erhalt der Ware.
+
+</p>
 
 </form>
 
-</div>
+</section>
 
 <footer>
 
-© 2026 Liora Tea
+<p>
+
+© 2026 LIORA TEA
+
+</p>
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
